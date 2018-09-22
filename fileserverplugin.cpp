@@ -13,7 +13,7 @@ QString FileserverPlugin::pluginName() const
     return QStringLiteral("fileserver");
 }
 
-WebApplication *FileserverPlugin::createApplication(const QJsonObject &config) const
+WebApplication *FileserverPlugin::createApplication(const QJsonObject &config, WebServer &webServer) const
 {
-    return new FileserverApplication(config);
+    return new FileserverApplication(config, webServer);
 }
