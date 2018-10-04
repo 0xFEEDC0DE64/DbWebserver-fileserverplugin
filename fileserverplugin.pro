@@ -10,7 +10,7 @@ SOURCES += fileserverplugin.cpp \
 
 FORMS +=
 
-RESOURCES +=
+RESOURCES += fileserverplugin_resources.qrc
 
 TRANSLATIONS +=
 
