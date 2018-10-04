@@ -10,6 +10,7 @@
 
 #include <memory>
 
+#include "cpp14polyfills.h"
 #include "webserver.h"
 #include "httprequest.h"
 #include "httpresponse.h"

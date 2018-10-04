@@ -1,6 +1,6 @@
 QT += core network
 
-DBLIBS += webserverlib
+DBLIBS += dbcore webserverlib
 
 HEADERS += fileserverplugin.h \
     fileserverapplication.h
